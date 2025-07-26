@@ -4,10 +4,13 @@ on:
   push:
     branches: [main]
 
+# ← Aquí indicamos que necesitamos permiso de escritura
+permissions:
+  contents: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo with submodules
         uses: actions/checkout@v4
