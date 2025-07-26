@@ -1,0 +1,60 @@
+baseURL: 'https://josfull.github.io/'
+languageCode: 'es-ar'
+title: 'Josfull - Ethical Hacking'
+theme: 'blowfish'
+timeZone: "America/Argentina/Buenos_Aires"
+
+menus:
+  main:
+    - identifier: about
+      name: About
+      url: /about.html
+      weight: 20
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 40
+
+permalinks:
+  blog: "/blog/:year/:month/:day/:title/"
+
+taxonomies:
+  tag: "tags"
+  author: "authors"
+
+indexes:
+  tag: "tags"
+
+markup:
+  defaultMarkdownHandler: "goldmark"
+  goldmark:
+    smartypants: true
+    fractions: true
+    superscript: true
+    renderer:
+      unsafe: true
+
+params:
+  homeText: false
+  centerTheme: true
+  social:
+    - name: github
+      url: https://github.com/myusername
+    - name: x
+      url: https://x.com/myusername
+    - name: youtube
+      url: https://youtube.com/myusername
+    - name: linkedin
+      url: https://linkedin.com/in/myusername
+    - name: "buy me a coffee"
+      url: https://www.buymeacoffee.com/myusername
+  disqus: "mydisquscode"
+
+module:
+  hugoVersion:
+    extended: false
+    min: "0.116.0"
