@@ -4,13 +4,13 @@
 
 ## Hello There!
 
-*Bienvenido por aqui alojo mis notas, guías y documentación técnica sobre pentesting, ciberseguridad y desarrollo.*  
+*Bienvenido, aquí alojo mis notas, guías y documentación técnica sobre pentesting, ciberseguridad y desarrollo.*  
 
 > **¿Solo buscabas el contenido?** 👉 Dirígete a **https://josfull.github.io** para la versión navegable.
 
 ---
 
-## 👤 Sobre mi
+## 👤 Sobre mí
 
 Soy **Josfull**, pentester y hacker ético.
 
@@ -18,7 +18,7 @@ Soy **Josfull**, pentester y hacker ético.
   <summary><strong>Más sobre mí</strong></summary>
   <ul>
     <li><strong>Nombre:</strong> Josfull</li>
-    <li><strong>De:</strong> Argentina</li>
+    <li><strong>Ubicación:</strong> Argentina</li>
     <li><strong>Roles:</strong> Pentester | Hacker ético</li>
     <li><strong>Habilidades:</strong> 
       Análisis y explotación de vulnerabilidades web avanzadas, análisis de código,
@@ -30,15 +30,15 @@ Soy **Josfull**, pentester y hacker ético.
 
 ---
 
-## 📂 Estructura del Poryecto
+## 📂 Estructura del Proyecto
 
 ```text
 josfull.github.io
 │
 ├── content
 │   ├── Scripts
-│   │   └── bash
-│   │   └── python
+│   │   ├── bash
+│   │   ├── python
 │   │   └── Go
 │   ├── Wordlists
 │   ├── De 0 a eWPT
