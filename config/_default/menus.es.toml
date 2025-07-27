@@ -1,0 +1,111 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+  name = "Diario de un Pentester"
+  # pageRef = "docs"
+  weight = 10
+
+[[main]]
+  name = "De 0 a EWPT"
+  # pageRef = "docs/shortcodes"
+  weight = 15
+
+[[main]]
+  name = "Wordlists"
+  weight = 20
+
+# ---------- ÍTEM PADRE ----------
+[[main]]
+identifier = "scripts"     # clave interna: única
+name       = "Scripts"     # texto que se muestra
+weight     = 15            # orden entre los top-level
+
+# ---------- HIJOS --------------
+[[main]]
+name     = "Bash"
+parent   = "scripts"       # ← mismo identifier del padre
+pageRef  = "/Scripts/bash" # o url = "/Scripts/bash/"
+weight   = 16
+
+[[main]]
+name     = "Python"
+parent   = "scripts"
+pageRef  = "/Scripts/python"
+weight   = 17
+
+[[main]]
+name     = "Go"
+parent   = "scripts"
+pageRef  = "/Scripts/go"
+weight   = 18
+
+
+#[[main]]
+#  name = "Showcase"
+#  parent = "Examples"
+#  pageRef = "examples"
+#  weight = 30
+
+#[[main]]
+#  name = "Recipes"
+#  parent = "Examples"
+#  pageRef = "guides"
+#  weight = 40
+
+#[[main]]
+#  name = "Users"
+#  pageRef = "users"
+#  weight = 90
+
+#[[main]]
+#  name = "Merch"
+#  url = "https://www.teepublic.com/user/blowfish-store/t-shirts"
+#  weight = 100
+
+#[[main]]
+#  name = "Test"
+#  pageRef = "pagTest"
+#  weight = 1000
+
+[[main]]
+  identifier = "twitter"
+  pre = "x-twitter"
+  url = "https://x.com/josfull_2000"
+  weight = 200
+
+#[[main]]
+#  identifier = "mastodon"
+#  pre = "mastodon"
+#  weight = 300
+#  url = "https://masto.ai/@blowfish"
+
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/josfull"
+  weight = 400
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+ [[footer]]
+   name = "Tags"
+   pageRef = "tags"
+   weight = 10
+
+ [[footer]]
+   name = "Authors"
+   pageRef = "authors"
+   weight = 20
