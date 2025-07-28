@@ -12,41 +12,43 @@
 
 [[main]]
   name = "Diario de un Pentester"
-  # pageRef = "docs"
+  pageRef = "/Diario"
   weight = 10
 
 [[main]]
   name = "De 0 a EWPT"
-  # pageRef = "docs/shortcodes"
+  pageRef = "/preparacion-ewpt"
   weight = 15
 
 [[main]]
   name = "Wordlists"
+  pageRef = "/Wordlists"
   weight = 20
 
 # ---------- ÍTEM PADRE ----------
 [[main]]
 identifier = "scripts"     # clave interna: única
 name       = "Scripts"     # texto que se muestra
+pageRef    = "/Scripts"
 weight     = 15            # orden entre los top-level
 
 # ---------- HIJOS --------------
 [[main]]
 name     = "Bash"
 parent   = "scripts"       # ← mismo identifier del padre
-pageRef  = "/Scripts/bash" # o url = "/Scripts/bash/"
+pageRef  = "scripts/Bash" # o url = "/Scripts/bash/"
 weight   = 16
 
 [[main]]
 name     = "Python"
 parent   = "scripts"
-pageRef  = "/Scripts/python"
+pageRef  = "/scripts/python"
 weight   = 17
 
 [[main]]
 name     = "Go"
 parent   = "scripts"
-pageRef  = "/Scripts/go"
+pageRef  = "/scripts/go"
 weight   = 18
 
 
