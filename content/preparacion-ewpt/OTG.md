@@ -61,7 +61,7 @@ La OTG divide el proceso de pentesting web en **fases y controles específicos**
 
 ### Recursos recomendados
 
-- [[OTG-CHECKLIST]]  
+- [OTG-CHECKLIST](/preparacion-ewpt/otg-checklist/)
   *(Adaptada y optimizada a partir de mi experiencia en auditorías reales y labs, actualizada constantemente a medida que evolucionan las técnicas y controles)*
 
 - [Guía Oficial OTG (OWASP)](https://github.com/OWASP/wstg/releases/download/v4.2/wstg-v4.2.pdf)

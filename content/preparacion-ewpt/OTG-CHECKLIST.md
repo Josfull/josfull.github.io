@@ -11,7 +11,7 @@ showTableOfContents: true
 Esta checklist está basada en la OWASP Testing Guide (OTG) y adaptada a los escenarios reales que enfrento como pentester web.  
 Marca, adapta o expande cada ítem según el contexto y alcance de tu auditoría.
 
-| ID OTG           | Título oficial (inglés)                                                | Título español propuesto                                         | Hallazgo |
+| ID OTG           | Título oficial (inglés)                                                | Título español                                                   | Hallazgo |
 | ---------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------- | -------- |
 | OTG-INFO-001     | Conduct Search Engine Discovery Reconnaissance for Information Leakage | Reconocimiento con buscadores (búsqueda de fugas de información) |          |
 | OTG-INFO-002     | Fingerprint Web Server                                                 | Huella digital del servidor web                                  |          |
