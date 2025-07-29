@@ -14,7 +14,9 @@ echo 'Hello There!'
 
 ## Últimos artículos
 
-- Espera ya casi subo el primer artículo.
+- [Metodología OTG (OWASP Testing Guide)](/preparacion-ewpt/otg)
+- [Checklist OTG](/preparacion-ewpt/otg-checklist)
+- [Descargar wordlists para Fuzzing](/wordlists/)
 
 ---
 
