@@ -1,3 +1,9 @@
+---
+title: "🧠 Scripts de GO"
+description: "Aqui encontraras Scripts de GO para copiar y pegar"
+date: 2025-07-29
+draft: false
+---
 # Bienvenido
 
 > Aqui encontraras Scripts de Go para copiar y pegar

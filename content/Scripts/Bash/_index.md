@@ -1,3 +1,10 @@
+---
+title: "🐉 Scripts de Bash"
+description: "Aqui encontraras Scripts de Bash para copiar y pegar"
+date: 2025-07-29
+draft: false
+---
+
 # Bienvenido
 
 > Aqui encontraras Scripts de Bash para copiar y pegar

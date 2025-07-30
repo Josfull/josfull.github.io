@@ -1,3 +1,10 @@
+---
+title: "🐍 Scripts de Python"
+description: "Aqui encontraras Scripts de Python para copiar y pegar"
+date: 2025-07-29
+draft: false
+---
+
 # Bienvenido
 
 > Aqui encontraras Scripts de Python para copiar y pegar
