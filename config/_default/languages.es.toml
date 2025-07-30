@@ -1,7 +1,7 @@
 languageCode = "es"
 languageName = "Español"
 weight = 1
-title = "JOSFULL — Laboratorio Personal"
+title = "Laboratorio Personal"
 # favicon = "img/favicon.ico"
 
 [params]
@@ -9,7 +9,7 @@ title = "JOSFULL — Laboratorio Personal"
   isoCode = "es"
   rtl = false
   dateFormat = "25 Julio 2025"
-  logo = "img/home.png"
+  logo = "img/home40.png"
   description = "Este espacio recopila todo mi recorrido en ciberseguridad ofensiva"
 
 [params.author]
@@ -17,7 +17,7 @@ title = "JOSFULL — Laboratorio Personal"
   email = "josfull.2000@gmail.com"
   image = "img/personaje.png"
   headline = "Este espacio recopila todo mi recorrido en ciberseguridad ofensiva."
-  bio = "Este espacio recopila todo mi recorrido en ciberseguridad ofensiva."
+  bio = "Pentester profesional y creador de este sitio."
   links = [
     { x-twitter = "https://x.com/josfull_2000" },
     { github = "https://github.com/josfull" },

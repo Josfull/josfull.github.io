@@ -25,7 +25,7 @@ disableTextInHeader = false
 # backgroundImageWidth = 1200
 
 defaultBackgroundImage = "/img/fondo.mp4" # background.svg
-defaultFeaturedImage = "/img/personaje.png"
+defaultFeaturedImage = "/img/POSTS-DEFAULT.png"
 defaultSocialImage = "/img/personaje.png"
 
 highlightCurrentMenuArea = true
