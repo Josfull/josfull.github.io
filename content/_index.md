@@ -14,6 +14,7 @@ echo 'Hello There!'
 
 ## Últimos artículos
 
+- [🛡️ Google Project Zero anuncia nueva política de transparencia en divulgación de vulnerabilidades](/Noticias/project-zero-cambio-politicas)
 - [Metodología OTG (OWASP Testing Guide)](/preparacion-ewpt/otg)
 - [Checklist OTG](/preparacion-ewpt/otg-checklist)
 - [Descargar wordlists para Fuzzing](/wordlists/)
@@ -35,9 +36,10 @@ echo 'Hello There!'
 
 | Sección | Contenido | Acceso |
 |---------|-----------|--------|
+| **Noticas** | Actualizaciones diarias en español sobre vulnerabilidades, amenazas y técnicas de hacking ético | [Ir a Noticias](/Noticias) |
 | **Scripts** | Bash, Python y Go para automatizar recon y explotación | [Ir a Scripts](/Scripts) |
-| **Diccionarios** | Wordlists y diccionarios personalizados | [Ir a Diccionarios personalizados](/Diccionarios%20personalizados) |
-| **De 0 a eWPT** | Ruta completa con PortSwigger + OTGv4 | [Ir a la serie](/De%200%20a%20ewpt%20con%20portswiger%20y%20otgv4) |
-| **Diario de un Pentester** | Casos reales, reflexiones y metodología | [Ir al diario](/El%20Diario%20de%20un%20Pentester) |
+| **Diccionarios** | Wordlists y diccionarios personalizados | [Ir a Diccionarios personalizados](/wordlists) |
+| **De 0 a eWPT** | Ruta completa con PortSwigger + OTGv4 | [Ir a la serie](/preparacion-ewpt) |
+| **Diario de un Pentester** | Casos reales, reflexiones y metodología | [Ir al diario](/Diario) |
 
 

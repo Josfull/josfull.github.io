@@ -1,3 +1,10 @@
+---
+title: "📚 Diccionarios personalizados para realizar fuzzing "
+description: "diccionarios enfocados en diferentes tecnologías para realizar fuzzing."
+date: 2025-07-29
+draft: false
+---
+
 # Bienvenido
 
 >Aquí encontrarás diccionarios enfocados en diferentes tecnologías para realizar fuzzing. 

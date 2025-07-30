@@ -10,7 +10,7 @@ showTableOfContents: false
 
 ## ¿Quién es Josfull?
 
-Soy pentester web profesional y creador del sitio **Josfull  — Laboratorio Personal**, donde documento labs, metodologías, y vivencias reales del día a día en seguridad ofensiva.  
+Soy pentester web profesional y creador del sitio **Laboratorio Personal**, donde documento labs, metodologías, y vivencias reales del día a día en seguridad ofensiva.  
 Me dedico a escribir contenido práctico y avanzado orientado a quienes buscan ir más allá de lo básico en el mundo del pentesting, bug bounty y análisis de vulnerabilidades web.
 
 ---

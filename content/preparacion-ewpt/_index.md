@@ -6,7 +6,7 @@ Bienvenido a mi carpeta `De 0 a eWPT`, un espacio de estudio y práctica enfocad
 
 ## 🎯 Objetivo
 
-Crear un repositorio práctico que me ayude a mi y otras personas que quierar prepararse para esta certificacion:
+Crear un repositorio práctico que me ayude a mi y otras personas que quieran prepararse para esta certificacion:
 
 - Aplicar técnicas reales de **pentesting web**
 - Documentar mis avances en cada laboratorio de PortSwigger
