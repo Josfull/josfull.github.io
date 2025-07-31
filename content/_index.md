@@ -14,7 +14,7 @@ echo 'Hello There!'
 
 ## Últimos artículos
 
-- [🛡️ Google Project Zero anuncia nueva política de transparencia en divulgación de vulnerabilidades](/Noticias/project-zero-cambio-politicas)
+- [🛡️ Google Project Zero anuncia nueva política de transparencia en divulgación de vulnerabilidades](news/divulgaciones/project-zero-cambio-politicas)
 - [Metodología OTG (OWASP Testing Guide)](/preparacion-ewpt/otg)
 - [Checklist OTG](/preparacion-ewpt/otg-checklist)
 - [Descargar wordlists para Fuzzing](/wordlists/)
