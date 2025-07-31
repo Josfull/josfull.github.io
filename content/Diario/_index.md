@@ -2,12 +2,8 @@
 title: "Diario de un Pentester"
 description: "Bitácora de aprendizajes, retos, hacks y reflexiones sobre pentesting real. Documentación detallada, labs, técnicas y errores que forman mi camino en ciberseguridad ofensiva."
 date: 2025-07-27
-# Puedes poner una imagen en static/img y referenciarla así:
-# image: "img/diario_pentester.jpg"
 showBreadcrumbs: true
 showTableOfContents: true
-# Puedes agregar tags si lo deseas
-# tags: ["bitácora", "pentesting", "reflexiones"]
 ---
 
 ## Bienvenido a mi Diario de un Pentester 🕵️‍♂️

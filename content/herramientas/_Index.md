@@ -1,13 +1,11 @@
 ---
-title: "Mi Entorno Personal en Parrot OS"
+title: "🦜 Mi Entorno Personal en Parrot OS"
 description: "Detalle completo de mi entorno de trabajo, herramientas, configuración y flujos de trabajo en Parrot para pentesting y CTFs."
 date: 2025-07-29
 draft: false
 ---
 
-# 🦜 Mi Entorno Personal en Parrot OS
-
-Bienvenido aqui encontraras una descripción detallada de **mi entorno personal de pentesting** usando Parrot OS, herramientas, configuraciones y flujos de trabajo que utilizo en mi día a día.
+#### Bienvenido aqui encontraras una descripción detallada de **mi entorno personal de pentesting** usando Parrot OS, herramientas, configuraciones y flujos de trabajo que utilizo en mi día a día.
 
 ---
 
