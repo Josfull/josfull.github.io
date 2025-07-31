@@ -47,11 +47,22 @@ weight   = 8
   name = "Diario de un Pentester"
   pageRef = "/Diario"
   weight = 10
+# ---------- ÍTEM PADRE ----------
 
 [[main]]
-  name = "De 0 a EWPT"
-  pageRef = "/preparacion-ewpt"
-  weight = 15
+identifier = "ewpt"     # clave interna: única
+name       = "De 0 a EWPT"     # texto que se muestra
+pageRef    = "preparacion-ewpt"
+weight     = 15            # orden entre los top-level
+
+# ---------- HIJOS --------------
+
+[[main]]
+name     = "SQLi Labs"
+parent   = "ewpt"       # ← mismo identifier del padre
+pageRef  = "preparacion-ewpt/sqli-labs-portswigger" # o url = "/Scripts/bash/"
+weight   = 16
+
 
 [[main]]
   name = "Wordlists"
