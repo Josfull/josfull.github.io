@@ -29,8 +29,8 @@ Al no usar mecanismos seguros un atacante puede manipular esa entrada para alter
 1. **Ubicar el input donde vas a inyectar.** De nada sirve conocer mil payloads si no sabés dónde aplicarlos. ¿Qué nos indica el enunciado? "Vulnerabilidad de inyección SQL en el filtro de categorías de productos". 
 
  Para visualizar el filtro, es necesario hacer clic en alguna de las categorías disponibles en la página.
-<img src="/img/LAB1.1.png" alt="LAB1.1" style="width: 600px" />
-<img src="/img/LAB1.2.png" alt="LAB1.2" style="width: 500px" />
+<img src="/img/LAB.png" alt="LAB" style="width: 600px" />
+<img src="/img/LABA.png" alt="LABA" style="width: 500px" />
 2. Ya identificado el input que vas a atacar porque en este punto no sabes si es o no es vulnerable, el siguiente paso es aplicar inyecciones; es decir, utilizar la sintaxis propia del lenguaje SQL según el motor utilizado (MySQL, MSSQL, Oracle, PostgreSQL, SQLite, entre otros).
 
 Cada uno posee funciones, operadores y mecanismos específicos que debes tener en cuenta para confirmar una vulnerabilidad de este tipo.

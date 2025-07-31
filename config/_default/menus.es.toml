@@ -60,7 +60,7 @@ weight     = 15            # orden entre los top-level
 [[main]]
 name     = "SQLi Labs"
 parent   = "ewpt"       # ← mismo identifier del padre
-pageRef  = "preparacion-ewpt/sqli-labs-portswigger" # o url = "/Scripts/bash/"
+pageRef  = "preparacion-ewpt/Sqli Labs Portswigger" # o url = "/Scripts/bash/"
 weight   = 16
 
 
