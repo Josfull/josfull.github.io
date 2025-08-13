@@ -5,17 +5,9 @@ showBreadcrumbs: true
 showTableOfContents: false
 ---
 
-# Enumeración NTLM en SharePoint 2013: Guía Técnica Completa
+# Enumeración NTLM en SharePoint: Guía Técnica Completa
 
-En este artículo técnico exploraré en detalle cómo realizar una enumeración efectiva de servidores SharePoint 2013 que utilizan autenticación NTLM. Este proceso es crucial durante evaluaciones de seguridad para identificar vectores potenciales sin necesidad de credenciales iniciales.
-
-## Escenario inicial
-
-Nos enfrentamos a un servidor SharePoint 2013 sobre IIS 8.5 con:
-- Solo puertos 80/443 accesibles
-- Autenticación NTLM habilitada
-- Sin credenciales iniciales
-- Objetivo: maximizar la enumeración pasiva
+En este artículo técnico exploraré en detalle cómo realizar una enumeración efectiva de servidores SharePoint que utilizan autenticación NTLM. Este proceso es crucial durante evaluaciones de seguridad para identificar vectores potenciales sin necesidad de credenciales iniciales.
 
 ## 1. Verificación del mecanismo de autenticación
 
@@ -94,7 +86,7 @@ vti_encoding:SR|utf8-nl
 vti_extenderversion:SR|15.0.0.4763
 ```
 
-El número `15.0.0.4763` indica SharePoint 2013 con una actualización específica.
+El número `15.0.0.4763` indica SharePoint con una actualización específica.
 
 ### Mediante cabeceras HTTP
 
@@ -254,7 +246,7 @@ echo -e "\n[+] Enumeración completada"
 
 ## Conclusión
 
-La enumeración NTLM en SharePoint 2013 demuestra cómo, incluso sin credenciales iniciales, es posible extraer información valiosa del sistema. Estos datos nos permiten:
+La enumeración NTLM en SharePoint demuestra cómo, incluso sin credenciales iniciales, es posible extraer información valiosa del sistema. Estos datos nos permiten:
 
 1. Identificar la estructura de dominio interno
 2. Conocer versiones precisas para búsqueda de exploits
