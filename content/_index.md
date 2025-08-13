@@ -14,7 +14,7 @@ echo 'Hello There!'
 
 ## Últimos artículos
 
-- [ ✉️ Enumeración NTLM en SharePoint: Guía Técnica Completa ](Diario/enumeracion_de_sharepoints)
+- [ ✉️ Enumeración NTLM en SharePoint: Guía Técnica Completa ](diario/enumeracion_de_sharepoints/)
 - [🛡️ Google Project Zero anuncia nueva política de transparencia en divulgación de vulnerabilidades](news/divulgaciones/project-zero-cambio-politicas)
 - [Metodología OTG (OWASP Testing Guide)](/preparacion-ewpt/otg)
 - [Checklist OTG](/preparacion-ewpt/otg-checklist)
