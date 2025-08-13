@@ -1,5 +1,5 @@
 ---
-title: "Enumeración NTLM en SharePoint 2013: Guía Técnica Completa"
+title: "Enumeración NTLM en SharePoint: Guía Técnica Completa"
 description: "Metodología detallada para extraer información valiosa de servidores SharePoint 2013 con autenticación NTLM sin necesidad de credenciales iniciales. Técnicas avanzadas de pentesting y reconocimiento pasivo."
 showBreadcrumbs: true
 showTableOfContents: false
