@@ -42,28 +42,58 @@ parent   = "news"       # ← mismo identifier del padre
 pageRef  = "news/cve" # o url = "/Scripts/bash/"
 weight   = 8
 
-
+# ---------- SECCIÓN: Diario ----------
 [[main]]
-  name = "Diario de un Pentester"
-  pageRef = "/Diario"
-  weight = 10
+identifier = "diario"
+name       = "Diario de un Pentester"
+pageRef    = "/Diario"
+weight     = 10
+
+# Hijo: artículo específico
+[[main]]
+name    = "Enumeración de SharePoints"
+parent  = "diario"
+pageRef = "Diario/enumeracion_de_sharepoints"
+weight  = 11
+
 # ---------- ÍTEM PADRE ----------
-
 [[main]]
-identifier = "ewpt"     # clave interna: única
-name       = "De 0 a EWPT"     # texto que se muestra
+identifier = "ewpt"
+name       = "De 0 a EWPT"
 pageRef    = "preparacion-ewpt"
-weight     = 15            # orden entre los top-level
+weight     = 15
 
-# ---------- HIJOS --------------
+# ---------- HIJOS (EWPT) --------------
+[[main]]
+name    = "SQLi Labs"
+parent  = "ewpt"
+pageRef = "preparacion-ewpt/Sqli Labs Portswigger"
+weight  = 16
 
 [[main]]
-name     = "SQLi Labs"
-parent   = "ewpt"       # ← mismo identifier del padre
-pageRef  = "preparacion-ewpt/Sqli Labs Portswigger" # o url = "/Scripts/bash/"
-weight   = 16
+name    = "Web Cache Poisoning"
+parent  = "ewpt"
+pageRef = "preparacion-ewpt/Web_Cache_Poisoning"
+weight  = 17
 
+[[main]]
+name    = "Web Socket"
+parent  = "ewpt"
+pageRef = "preparacion-ewpt/web_socket"
+weight  = 18
 
+[[main]]
+name    = "OTG"
+parent  = "ewpt"
+pageRef = "preparacion-ewpt/OTG"
+weight  = 19
+
+[[main]]
+name    = "OTG Checklist"
+parent  = "ewpt"
+pageRef = "preparacion-ewpt/OTG-CHECKLIST"
+weight  = 20
+# ---------- SECCIÓN: Wordlists ----------
 [[main]]
   name = "Wordlists"
   pageRef = "/Wordlists"
@@ -95,52 +125,17 @@ parent   = "scripts"
 pageRef  = "/scripts/go"
 weight   = 18
 
-
-#[[main]]
-#  name = "Showcase"
-#  parent = "Examples"
-#  pageRef = "examples"
-#  weight = 30
-
-#[[main]]
-#  name = "Recipes"
-#  parent = "Examples"
-#  pageRef = "guides"
-#  weight = 40
-
-#[[main]]
-#  name = "Users"
-#  pageRef = "users"
-#  weight = 90
-
-#[[main]]
-#  name = "Merch"
-#  url = "https://www.teepublic.com/user/blowfish-store/t-shirts"
-#  weight = 100
-
-#[[main]]
-#  name = "Test"
-#  pageRef = "pagTest"
-#  weight = 1000
-
 [[main]]
   identifier = "twitter"
   pre = "x-twitter"
   url = "https://x.com/josfull_2000"
   weight = 200
 
-#[[main]]
-#  identifier = "mastodon"
-#  pre = "mastodon"
-#  weight = 300
-#  url = "https://masto.ai/@blowfish"
-
 [[main]]
   identifier = "github"
   pre = "github"
   url = "https://github.com/josfull"
   weight = 400
-
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
